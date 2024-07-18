@@ -1,6 +1,6 @@
 import React from 'react';
 import imgCategory from '../../assets/menu.png';
-import './AppToolBar.css'; // Добавьте этот файл для стилей
+import './AppToolBar.css';
 
 const AppToolBar = () => {
   return (

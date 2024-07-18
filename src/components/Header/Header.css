@@ -1,8 +1,6 @@
 .containerHeader {
   padding: 12px 120px 12px 120px;
   background: #F5F5F5;
-  display: flex;
-  justify-content: center;
 }
 
 .logo {

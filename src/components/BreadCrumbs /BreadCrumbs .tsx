@@ -13,9 +13,3 @@ const BreadCrumbs = () => {
 };
 
 export default BreadCrumbs;
-
-// font-family: Roboto;
-// font-size: 16px;
-// font-weight: 400;
-// line-height: 18.75px;
-// text-align: left;

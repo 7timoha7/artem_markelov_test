@@ -49,21 +49,20 @@ const Products: React.FC = () => {
           className='selected-image'
         />
       </div>
-
       <div className="frame-7">
         <div className="frame-8">
           <div className="div-2">
             <p className="p">{product?.title}</p>
             <div className="frame-9">
               <div className="div">
-                <img className="img" src={imgFrame}/>
+                <img className="img" src={imgFrame} alt={product?.title}/>
                 <div className="text-wrapper-8">Название магазина</div>
               </div>
               <div className="text-wrapper-9">Бренд</div>
             </div>
             <div className="frame-10">
               <div className="div-3">
-                <img className="img-2" src={imgStar}/>
+                <img className="img-2" src={imgStar} alt={product?.title}/>
                 <div className="text-wrapper-4">4.9</div>
               </div>
               <div className="text-wrapper-10">60 отзывов</div>
@@ -76,7 +75,6 @@ const Products: React.FC = () => {
         </div>
         <div className="text-wrapper-12">Смотреть характеристики</div>
       </div>
-
       <div className="price-card-desktop">
         <div className="frame-10">
           <div className="text-wrapper-13">{product?.sellingPrice} сом</div>
