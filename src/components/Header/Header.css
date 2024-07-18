@@ -1,0 +1,33 @@
+.containerHeader {
+  padding: 12px 120px 12px 120px;
+  background: #F5F5F5;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 154px;
+  height: 48px;
+  background: url(../../assets/LOGO.png);
+  text-indent: 200px;
+  overflow: hidden;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-container input[type="search"] {
+  padding-left: 40px;
+}
+
+.search-container::before {
+  content: url('../../assets/Vector.png');
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
