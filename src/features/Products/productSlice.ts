@@ -15,7 +15,6 @@ const initialState: ProductsState = {
   loading: false,
   error: false,
 };
-
 export const productsSLice = createSlice({
   name: 'products',
   initialState,
@@ -36,7 +35,6 @@ export const productsSLice = createSlice({
 });
 
 export const productsReducer = productsSLice.reducer;
-
 
 export const selectProductsState = (state: RootState) => state.products.products;
 export const selectProductsLoading = (state: RootState) => state.products.loading;
